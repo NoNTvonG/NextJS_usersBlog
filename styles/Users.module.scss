@@ -1,0 +1,16 @@
+.usersPage {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 300px);
+	justify-content: center;
+	gap: 15px;
+	margin: 10px;
+}
+.userTile {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 7px;
+
+	p {
+		margin: 0;
+	}
+}

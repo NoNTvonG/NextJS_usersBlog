@@ -1,0 +1,21 @@
+.postsPage {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+
+	.postTile {
+		border: 1px solid black;
+		border-radius: 5px;
+		padding: 10px;
+		h2 {
+			font-size: 1.125rem;
+			margin-top: 0;
+		}
+		p {
+			margin: 0;
+		}
+	}
+}
