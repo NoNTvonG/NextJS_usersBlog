@@ -13,10 +13,6 @@ export async function getServerSideProps() {
 }
 
 export default function Users({ users }) {
-	useEffect(() => {
-		console.log(users)
-	}, [])
-
 	return (
 		<div className={styles.usersPage}>
 			{users.map(u => (

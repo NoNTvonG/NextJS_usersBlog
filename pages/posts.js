@@ -13,10 +13,6 @@ export async function getServerSideProps() {
 }
 
 export default function Users({ posts }) {
-	useEffect(() => {
-		console.log(posts)
-	}, [])
-
 	return (
 		<div className={styles.postsPage}>
 			{posts.map(post => (
